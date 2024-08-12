@@ -31,8 +31,6 @@ An SSH key pair in your AWS account for EC2 access
 
 ├── outputs.tf              # Terraform output for instance IP
 
-└── README.md               # This README file
-
 **Follow these steps to deploy the Flask application on AWS.**
 1. Clone the Repository
 Clone this repository to your local machine:
