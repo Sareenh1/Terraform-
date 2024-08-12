@@ -16,13 +16,21 @@ An AWS account with programmatic access configured (aws configure)
 An SSH key pair in your AWS account for EC2 access
 
 **Project Structure**
+
 ├── app.py                  # Flask application script
+
 ├── requirements.txt        # Python dependencies
+
 ├── main.tf                 # AWS provider configuration
+
 ├── vpc.tf                  # VPC and Subnet configuration
+
 ├── security_group.tf       # Security Group configuration
+
 ├── ec2.tf                  # EC2 instance configuration with Flask app setup
+
 ├── outputs.tf              # Terraform output for instance IP
+
 └── README.md               # This README file
 
 **Follow these steps to deploy the Flask application on AWS.**
