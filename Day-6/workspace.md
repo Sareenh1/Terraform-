@@ -1,4 +1,4 @@
-##workspace##
+**workspace**
 
 Terraform Workspaces provide a powerful way to manage different environments or configurations within a single Terraform setup by maintaining separate state files for each workspace. 
 When you initialize a Terraform configuration, a `default` workspace is created, which you can use for initial development or simple deployments. However, as your infrastructure needs grow, 
