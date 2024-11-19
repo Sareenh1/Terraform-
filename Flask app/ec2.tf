@@ -1,6 +1,6 @@
 resource "aws_instance" "flask_app" {
   ami           = "ami-0c55b159cbfafe1f0"  # Amazon Linux 2 AMI
-  instance_type = "t2.micro"
+  instance_type = "t2.medium"
   subnet_id     = aws_subnet.public_subnet.id
   security_groups = [aws_security_group.web_sg.name]
 
