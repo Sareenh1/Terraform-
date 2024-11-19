@@ -1,4 +1,4 @@
-resource "aws_security_group" "web_sg" {
+resource "aws_security_group" "flask_sg" {
   vpc_id = aws_vpc.main_vpc.id
 
   ingress {
